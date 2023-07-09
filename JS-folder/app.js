@@ -16,6 +16,9 @@ const goPrev = ()=>{
 
 const goNext = ()=>{
     counter ++
+    if (counter > 3) {
+        counter = 3;
+      }
     slideImage()
 }
 
@@ -28,3 +31,8 @@ const slideImage = () =>{
     )
 
 }
+
+//feature section
+
+
+  
