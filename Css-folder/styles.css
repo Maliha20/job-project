@@ -84,14 +84,6 @@
   margin: auto;
   text-align: center;
 }
-.sec-title {
-    color: #000000;
-    font-size: 45px;
-    font-weight: 700px;
-    font-style: bold;
-
-}
-
 .sec-2-title {
     border-left: 8px solid #FF900E;
     padding-left: 20px;
@@ -160,39 +152,37 @@ main {
 /* Company feature part 1 */
 
 .sec-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 73px;
-    margin-top: 85px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 73px;
+margin-top: 85px;
 }
 
+
 .sec-1-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 24px;
-    grid-column-gap: 24px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-row-gap: 24px;
+grid-column-gap: 24px;
 }
 
 .sec-1-img {
-    height: 342px;
-    width: 342px;
-    border-radius: 8px;
+height: 342px;
+width: 342px;
+border-radius: 8px;
 }
 
-.span-gray {
-    color: #727272;
-    font-style: extrathin;
-    font-weight: 50px;
-    font-size: 45px;
-
+.section-description {
+font-size: 16px;
+font-style: regular;
+color: #727272;
+margin-top: 15px;
 }
 
 
+.sec-title{
 
-.sec-title {
-  
-    
     color: #ffffff;
     font-size: 4vw;
     font-weight: 700px;
@@ -229,13 +219,32 @@ main {
   }
 }
 
-.sec-title span{
-    color: #FF900E;
+.btn {
+    border: none;
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 50px 0 32px;
 }
-
-.span-orange {
+.span-black{
     color: #FF900E;
     font-weight: 700px;
+    font-size: 45px;
+    font-style: bold;
+}
+.span-orange{
+    color: #FF900E;
+    font-weight:700px;
+    font-style: bold;
+    font-size: 45px;
+}
+.span-gray{
+    color: #727272;
+    font-style: thin;
     font-size: 45px;
 }
 
@@ -311,6 +320,25 @@ main {
     width: 708px;
     border-radius: 8px;
 
+}
+
+/* main- section-4 */
+
+.sec-4-info {
+    text-align: center;
+    margin-top: 175px;
+}
+
+.sec-4-details {
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+    margin: 55px 0 130px;
+
+}
+
+.sec-4-logo {
+    filter: grayscale();
 }
 /* image animation */
 .img-container{
@@ -756,8 +784,23 @@ body {
     }
 
 
+    .sec-4-logo {
+        width: 100px;
+        height: 100px;
+    }
 
-    
+    .sec-4-details {
+        flex-direction: column;
+        gap: 10px;
+        margin: 40px 0 60px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-4-info {
+        text-align: left;
+        margin-top: 110px;
+    }
 
 
     .footer {
